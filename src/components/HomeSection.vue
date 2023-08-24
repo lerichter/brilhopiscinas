@@ -103,7 +103,7 @@ export default {
         {
           img: require("@/assets/img/calendario-semanal.svg"),
           title: "Disponível de 2ª a 6ª",
-          text: "Atendemos a Grande São Paulo (com foco na Zona Sul e Oeste) e Interiores como Iperó e Boituva. ",
+          text: "Atendemos a Grande São Paulo (com foco na Zona Sul e Oeste) e cidades do Interior como Iperó e Boituva. ",
         },
       ],
     };
