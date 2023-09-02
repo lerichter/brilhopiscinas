@@ -23,7 +23,7 @@
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text">Incluso retorno</div>
                     <v-divider class="my-2"/>
-                    <div class="text-h4 mt-6 blue--text">à partir de <br>R$ 160,00</div>
+                    <div class="text-h4 mt-6 blue--text"> <br> R$ consulte</div>
                     <!-- <v-btn
                         v-bind="size"
                         rounded
@@ -56,7 +56,7 @@
                     <v-divider class="my-2"/>
                     <div class="text-uppercase blue--text">1, 2 ou 3x por semana</div>
                     <v-divider class="my-2"/>
-                    <div class=" text-h4 mt-6 blue--text">à partir de <br>R$ 280,00</div>
+                    <div class="text-h4 mt-6 blue--text"> <br> R$ consulte</div>
                     <!-- <v-btn
                         v-bind="size"
                         rounded
