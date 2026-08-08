@@ -212,15 +212,6 @@ export default function AboutSection() {
                 sm:items-center
               "
             >
-              <ButtonLink
-                href="#servicos"
-                variant="secondary"
-                message="Olá, Brilho Piscinas! Gostaria de conhecer melhor os serviços oferecidos."
-              >
-                Conhecer os serviços
-                <MessageCircle size={17} />
-              </ButtonLink>
-
               <div
                 className="
                   flex items-center gap-2

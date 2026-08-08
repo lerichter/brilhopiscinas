@@ -129,12 +129,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/award.mjs [app-rsc] (ecmascript) <export default as Award>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/check.mjs [app-rsc] (ecmascript) <export default as Check>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$graduation$2d$cap$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__GraduationCap$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/graduation-cap.mjs [app-rsc] (ecmascript) <export default as GraduationCap>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$circle$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageCircle$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/message-circle.mjs [app-rsc] (ecmascript) <export default as MessageCircle>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$rotate$2d$ccw$2d$clock$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__History$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/rotate-ccw-clock.mjs [app-rsc] (ecmascript) <export default as History>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2d$check$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ShieldCheck$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/shield-check.mjs [app-rsc] (ecmascript) <export default as ShieldCheck>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$2f$Container$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/layout/Container.tsx [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$ButtonLink$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/ButtonLink.tsx [app-rsc] (ecmascript)");
-;
 ;
 ;
 ;
@@ -287,46 +284,25 @@ function AboutSection() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "\n                mt-10\n                flex flex-col gap-3\n                sm:flex-row\n                sm:items-center\n              ",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$ButtonLink$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                            href: "#servicos",
-                                            variant: "secondary",
-                                            message: "Olá, Brilho Piscinas! Gostaria de conhecer melhor os serviços oferecidos.",
-                                            children: [
-                                                "Conhecer os serviços",
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$circle$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageCircle$3e$__["MessageCircle"], {
-                                                    size: 17
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/home/AboutSection.tsx",
-                                                    lineNumber: 221,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/components/home/AboutSection.tsx",
-                                            lineNumber: 215,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "\n                  flex items-center gap-2\n                  px-1\n                  text-xs\n                  font-bold\n                  text-[#607887]\n                ",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2d$check$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ShieldCheck$3e$__["ShieldCheck"], {
-                                                    size: 17,
-                                                    className: "text-[#1675b9]"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/home/AboutSection.tsx",
-                                                    lineNumber: 233,
-                                                    columnNumber: 17
-                                                }, this),
-                                                "Experiência, técnica e cuidado"
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/components/home/AboutSection.tsx",
-                                            lineNumber: 224,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "\n                  flex items-center gap-2\n                  px-1\n                  text-xs\n                  font-bold\n                  text-[#607887]\n                ",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2d$check$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ShieldCheck$3e$__["ShieldCheck"], {
+                                                size: 17,
+                                                className: "text-[#1675b9]"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/home/AboutSection.tsx",
+                                                lineNumber: 224,
+                                                columnNumber: 17
+                                            }, this),
+                                            "Experiência, técnica e cuidado"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/home/AboutSection.tsx",
+                                        lineNumber: 215,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
                                     fileName: "[project]/src/components/home/AboutSection.tsx",
                                     lineNumber: 207,
                                     columnNumber: 13
@@ -351,7 +327,7 @@ function AboutSection() {
                                             className: "\n                  object-cover\n                  object-[78%_center]\n                "
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/home/AboutSection.tsx",
-                                            lineNumber: 262,
+                                            lineNumber: 253,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -359,7 +335,7 @@ function AboutSection() {
                                             className: "\n                  absolute inset-0\n                  bg-gradient-to-t\n                  from-[#05283f]/65\n                  via-transparent\n                  to-transparent\n                "
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/home/AboutSection.tsx",
-                                            lineNumber: 277,
+                                            lineNumber: 268,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -373,19 +349,19 @@ function AboutSection() {
                                                         className: "text-[#ef7622]"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/home/AboutSection.tsx",
-                                                        lineNumber: 311,
+                                                        lineNumber: 302,
                                                         columnNumber: 19
                                                     }, this),
                                                     "Mais de 40 anos de experiência"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/home/AboutSection.tsx",
-                                                lineNumber: 296,
+                                                lineNumber: 287,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/home/AboutSection.tsx",
-                                            lineNumber: 289,
+                                            lineNumber: 280,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -398,7 +374,7 @@ function AboutSection() {
                                                         children: "Desde o início"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/home/AboutSection.tsx",
-                                                        lineNumber: 343,
+                                                        lineNumber: 334,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -406,24 +382,24 @@ function AboutSection() {
                                                         children: "Técnica, conhecimento e cuidado para manter piscinas sempre prontas para serem aproveitadas."
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/home/AboutSection.tsx",
-                                                        lineNumber: 355,
+                                                        lineNumber: 346,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/home/AboutSection.tsx",
-                                                lineNumber: 330,
+                                                lineNumber: 321,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/home/AboutSection.tsx",
-                                            lineNumber: 322,
+                                            lineNumber: 313,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/home/AboutSection.tsx",
-                                    lineNumber: 247,
+                                    lineNumber: 238,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -431,7 +407,7 @@ function AboutSection() {
                                     className: "\n                absolute\n                -bottom-6 -right-6\n                -z-10\n                h-[220px] w-[220px]\n                rounded-[34px]\n                border border-[#d0e6f1]\n              "
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/home/AboutSection.tsx",
-                                    lineNumber: 373,
+                                    lineNumber: 364,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -439,13 +415,13 @@ function AboutSection() {
                                     className: "\n                absolute\n                -left-8 top-20\n                -z-10\n                h-28 w-28\n                rounded-full\n                bg-[#ef7622]/10\n                blur-2xl\n              "
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/home/AboutSection.tsx",
-                                    lineNumber: 386,
+                                    lineNumber: 377,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/home/AboutSection.tsx",
-                            lineNumber: 246,
+                            lineNumber: 237,
                             columnNumber: 11
                         }, this)
                     ]
@@ -2386,4 +2362,4 @@ function SectionHeading({ eyebrow, title, description, align = "left", className
 }),
 ];
 
-//# sourceMappingURL=%5Broot-of-the-server%5D__0i65qt3._.js.map
+//# sourceMappingURL=%5Broot-of-the-server%5D__1jv-mgy._.js.map

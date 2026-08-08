@@ -667,7 +667,8 @@ var _s = __turbopack_context__.k.signature();
  * Como as duas fotos foram tiradas de posições ligeiramente diferentes,
  * cada uma recebe seu próprio object-position.
  *
- * Se precisarmos refinar depois, mexemos somente nestes dois valores.
+ * Estes valores funcionam tanto no desktop quanto no mobile porque
+ * o comparador agora mantém a mesma proporção visual (16/10).
  */ const BEFORE_IMAGE_POSITION = "50% 46%";
 const AFTER_IMAGE_POSITION = "50% 27%";
 function ResultsSection() {
@@ -679,39 +680,39 @@ function ResultsSection() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 "aria-hidden": "true",
-                className: "\n          pointer-events-none\n          absolute -right-60 top-20\n          h-[520px] w-[520px]\n          rounded-full\n          bg-[#edf8fd]\n          blur-[120px]\n        "
+                className: "\n          pointer-events-none\n          absolute\n          -right-60\n          top-20\n          h-[520px]\n          w-[520px]\n          rounded-full\n          bg-[#edf8fd]\n          blur-[120px]\n        "
             }, void 0, false, {
                 fileName: "[project]/src/components/home/ResultsSection.tsx",
-                lineNumber: 39,
+                lineNumber: 40,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$2f$Container$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                 className: "relative",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "\n            grid\n            min-w-0\n            gap-12\n\n            lg:grid-cols-[0.72fr_1.28fr]\n            lg:items-center\n            lg:gap-16\n          ",
+                    className: "\n            grid\n            min-w-0\n            gap-12\n            lg:grid-cols-[0.72fr_1.28fr]\n            lg:items-center\n            lg:gap-16\n          ",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "min-w-0",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "\n                inline-flex\n                items-center gap-2\n\n                text-[11px]\n                font-extrabold\n                uppercase\n                tracking-[0.16em]\n                text-[#ef7622]\n\n                sm:text-xs\n              ",
+                                    className: "\n                inline-flex\n                items-center\n                gap-2\n                text-[11px]\n                font-extrabold\n                uppercase\n                tracking-[0.16em]\n                text-[#ef7622]\n                sm:text-xs\n              ",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "\n                  h-[2px] w-6\n                  rounded-full\n                  bg-[#ef7622]\n                "
+                                            className: "\n                  h-[2px]\n                  w-6\n                  rounded-full\n                  bg-[#ef7622]\n                "
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/home/ResultsSection.tsx",
-                                            lineNumber: 81,
+                                            lineNumber: 83,
                                             columnNumber: 15
                                         }, this),
                                         "Resultados"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/home/ResultsSection.tsx",
-                                    lineNumber: 67,
+                                    lineNumber: 70,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "\n                mt-4\n                max-w-[470px]\n\n                text-[36px]\n                font-[800]\n                leading-[1.05]\n                tracking-[-0.04em]\n                text-[#082f4a]\n\n                sm:text-[44px]\n                lg:text-[52px]\n              ",
+                                    className: "\n                mt-4\n                max-w-[470px]\n                text-[36px]\n                font-[800]\n                leading-[1.05]\n                tracking-[-0.04em]\n                text-[#082f4a]\n                sm:text-[44px]\n                lg:text-[52px]\n              ",
                                     children: [
                                         "Resultados que",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -719,38 +720,38 @@ function ResultsSection() {
                                             children: "você pode ver."
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/home/ResultsSection.tsx",
-                                            lineNumber: 109,
+                                            lineNumber: 110,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/home/ResultsSection.tsx",
-                                    lineNumber: 92,
+                                    lineNumber: 95,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "\n                mt-6\n                max-w-[480px]\n\n                text-[14px]\n                font-medium\n                leading-7\n                text-[#607887]\n\n                sm:text-base\n              ",
+                                    className: "\n                mt-6\n                max-w-[480px]\n                text-[14px]\n                font-medium\n                leading-7\n                text-[#607887]\n                sm:text-base\n              ",
                                     children: "Tratamento correto, manutenção constante e cuidado profissional fazem toda a diferença na qualidade e na aparência da água."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/home/ResultsSection.tsx",
-                                    lineNumber: 114,
+                                    lineNumber: 115,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "\n                mt-8\n                flex\n                max-w-[440px]\n                items-start\n                gap-4\n\n                rounded-2xl\n                border\n                border-[#dfeaf0]\n                bg-[#f7fbfd]\n\n                p-4\n\n                sm:p-5\n              ",
+                                    className: "\n                mt-8\n                flex\n                max-w-[440px]\n                items-start\n                gap-4\n                rounded-2xl\n                border\n                border-[#dfeaf0]\n                bg-[#f7fbfd]\n                p-4\n                sm:p-5\n              ",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "\n                  flex\n                  h-11 w-11\n                  shrink-0\n                  items-center\n                  justify-center\n\n                  rounded-xl\n                  bg-white\n                  text-[#1675b9]\n\n                  shadow-[0_6px_20px_rgba(7,52,86,0.07)]\n                ",
+                                            className: "\n                  flex\n                  h-11\n                  w-11\n                  shrink-0\n                  items-center\n                  justify-center\n                  rounded-xl\n                  bg-white\n                  text-[#1675b9]\n                  shadow-[0_6px_20px_rgba(7,52,86,0.07)]\n                ",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$sparkles$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Sparkles$3e$__["Sparkles"], {
                                                 size: 19
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/home/ResultsSection.tsx",
-                                                lineNumber: 164,
+                                                lineNumber: 159,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/home/ResultsSection.tsx",
-                                            lineNumber: 149,
+                                            lineNumber: 145,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -761,7 +762,7 @@ function ResultsSection() {
                                                     children: "Cuidado que aparece no resultado"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/home/ResultsSection.tsx",
-                                                    lineNumber: 168,
+                                                    lineNumber: 163,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -769,34 +770,34 @@ function ResultsSection() {
                                                     children: "Cada piscina exige uma avaliação específica para definir o tratamento e a rotina mais adequados."
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/home/ResultsSection.tsx",
-                                                    lineNumber: 178,
+                                                    lineNumber: 173,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/home/ResultsSection.tsx",
-                                            lineNumber: 167,
+                                            lineNumber: 162,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/home/ResultsSection.tsx",
-                                    lineNumber: 131,
+                                    lineNumber: 130,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/home/ResultsSection.tsx",
-                            lineNumber: 66,
+                            lineNumber: 69,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "w-full min-w-0 max-w-full",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "\n                relative\n                w-full\n                max-w-full\n                overflow-hidden\n\n                rounded-[22px]\n                border\n                border-[#d9e8f0]\n                bg-[#e9f3f7]\n\n                shadow-[0_20px_50px_rgba(7,52,86,0.11)]\n\n                sm:rounded-[30px]\n                sm:shadow-[0_26px_65px_rgba(7,52,86,0.13)]\n              ",
+                                    className: "\n                relative\n                w-full\n                max-w-full\n                select-none\n                overflow-hidden\n                rounded-[22px]\n                border\n                border-[#d9e8f0]\n                bg-[#e9f3f7]\n                shadow-[0_20px_50px_rgba(7,52,86,0.11)]\n                sm:rounded-[30px]\n                sm:shadow-[0_26px_65px_rgba(7,52,86,0.13)]\n              ",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "\n                  relative\n                  w-full\n\n                  aspect-[4/3]\n\n                  sm:aspect-[16/10]\n                ",
+                                        className: "\n                  relative\n                  aspect-[16/10]\n                  w-full\n                ",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                 src: "/images/piscina-depois.jpg",
@@ -809,11 +810,11 @@ function ResultsSection() {
                                                 sizes: "\n                    (max-width: 640px) 100vw,\n                    (max-width: 1024px) 90vw,\n                    65vw\n                  "
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/home/ResultsSection.tsx",
-                                                lineNumber: 229,
+                                                lineNumber: 219,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "\n                    absolute inset-0\n                    overflow-hidden\n                  ",
+                                                className: "\n                    absolute\n                    inset-0\n                    overflow-hidden\n                  ",
                                                 style: {
                                                     clipPath: `inset(0 ${100 - position}% 0 0)`
                                                 },
@@ -828,46 +829,46 @@ function ResultsSection() {
                                                     sizes: "\n                      (max-width: 640px) 100vw,\n                      (max-width: 1024px) 90vw,\n                      65vw\n                    "
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/home/ResultsSection.tsx",
-                                                    lineNumber: 256,
+                                                    lineNumber: 247,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/home/ResultsSection.tsx",
-                                                lineNumber: 247,
+                                                lineNumber: 237,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 "aria-hidden": "true",
-                                                className: "\n                    pointer-events-none\n                    absolute inset-x-0 bottom-0\n\n                    h-24\n\n                    bg-gradient-to-t\n                    from-[#05263a]/40\n                    to-transparent\n\n                    sm:h-28\n                  "
+                                                className: "\n                    pointer-events-none\n                    absolute\n                    inset-x-0\n                    bottom-0\n                    h-20\n                    bg-gradient-to-t\n                    from-[#05263a]/40\n                    to-transparent\n                    sm:h-28\n                  "
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/home/ResultsSection.tsx",
-                                                lineNumber: 273,
+                                                lineNumber: 264,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 "aria-hidden": "true",
-                                                className: "\n                    pointer-events-none\n                    absolute inset-y-0\n                    z-20\n\n                    w-[2px]\n\n                    bg-white\n\n                    shadow-[0_0_14px_rgba(0,0,0,0.25)]\n                  ",
+                                                className: "\n                    pointer-events-none\n                    absolute\n                    inset-y-0\n                    z-20\n                    w-[2px]\n                    bg-white\n                    shadow-[0_0_14px_rgba(0,0,0,0.25)]\n                  ",
                                                 style: {
                                                     left: `${position}%`
                                                 },
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "\n                      absolute\n                      left-1/2 top-1/2\n\n                      flex\n                      h-10 w-10\n                      -translate-x-1/2\n                      -translate-y-1/2\n                      items-center\n                      justify-center\n\n                      rounded-full\n                      border-[3px]\n                      border-white\n\n                      bg-[#1675b9]\n                      text-white\n\n                      shadow-[0_8px_24px_rgba(5,35,54,0.25)]\n\n                      sm:h-12\n                      sm:w-12\n                    ",
+                                                    className: "\n                      absolute\n                      left-1/2\n                      top-1/2\n                      flex\n                      h-10\n                      w-10\n                      -translate-x-1/2\n                      -translate-y-1/2\n                      items-center\n                      justify-center\n                      rounded-full\n                      border-[3px]\n                      border-white\n                      bg-[#1675b9]\n                      text-white\n                      shadow-[0_8px_24px_rgba(5,35,54,0.25)]\n                      sm:h-12\n                      sm:w-12\n                    ",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevrons$2d$left$2d$right$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronsLeftRight$3e$__["ChevronsLeftRight"], {
                                                         size: 18,
                                                         strokeWidth: 2.3
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/home/ResultsSection.tsx",
-                                                        lineNumber: 332,
+                                                        lineNumber: 317,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/home/ResultsSection.tsx",
-                                                    lineNumber: 307,
+                                                    lineNumber: 295,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/home/ResultsSection.tsx",
-                                                lineNumber: 290,
+                                                lineNumber: 280,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -877,77 +878,77 @@ function ResultsSection() {
                                                 value: position,
                                                 onChange: (event)=>setPosition(Number(event.target.value)),
                                                 "aria-label": "Comparar piscina antes e depois",
-                                                className: "\n                    absolute inset-0\n                    z-30\n\n                    m-0\n                    h-full\n                    w-full\n                    max-w-full\n\n                    cursor-ew-resize\n                    opacity-0\n                  "
+                                                className: "\n                    absolute\n                    inset-0\n                    z-30\n                    m-0\n                    h-full\n                    w-full\n                    max-w-full\n                    cursor-ew-resize\n                    touch-pan-y\n                    opacity-0\n                  "
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/home/ResultsSection.tsx",
-                                                lineNumber: 340,
+                                                lineNumber: 325,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "\n                    pointer-events-none\n                    absolute\n                    bottom-3 left-3\n                    z-20\n\n                    rounded-full\n                    border\n                    border-white/20\n\n                    bg-[#062d47]/75\n\n                    px-3 py-1.5\n\n                    text-[9px]\n                    font-extrabold\n                    uppercase\n                    tracking-[0.12em]\n                    text-white\n\n                    backdrop-blur-md\n\n                    sm:bottom-5\n                    sm:left-5\n                    sm:px-4\n                    sm:py-2\n                    sm:text-[11px]\n                  ",
+                                                className: "\n                    pointer-events-none\n                    absolute\n                    bottom-3\n                    left-3\n                    z-20\n                    rounded-full\n                    border\n                    border-white/20\n                    bg-[#062d47]/75\n                    px-3\n                    py-1.5\n                    text-[9px]\n                    font-extrabold\n                    uppercase\n                    tracking-[0.12em]\n                    text-white\n                    backdrop-blur-md\n                    sm:bottom-5\n                    sm:left-5\n                    sm:px-4\n                    sm:py-2\n                    sm:text-[11px]\n                  ",
                                                 children: "Antes"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/home/ResultsSection.tsx",
-                                                lineNumber: 364,
+                                                lineNumber: 349,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "\n                    pointer-events-none\n                    absolute\n                    bottom-3 right-3\n                    z-20\n\n                    rounded-full\n                    border\n                    border-white/20\n\n                    bg-white/88\n\n                    px-3 py-1.5\n\n                    text-[9px]\n                    font-extrabold\n                    uppercase\n                    tracking-[0.12em]\n                    text-[#0b4f7c]\n\n                    backdrop-blur-md\n\n                    sm:bottom-5\n                    sm:right-5\n                    sm:px-4\n                    sm:py-2\n                    sm:text-[11px]\n                  ",
+                                                className: "\n                    pointer-events-none\n                    absolute\n                    bottom-3\n                    right-3\n                    z-20\n                    rounded-full\n                    border\n                    border-white/20\n                    bg-white/88\n                    px-3\n                    py-1.5\n                    text-[9px]\n                    font-extrabold\n                    uppercase\n                    tracking-[0.12em]\n                    text-[#0b4f7c]\n                    backdrop-blur-md\n                    sm:bottom-5\n                    sm:right-5\n                    sm:px-4\n                    sm:py-2\n                    sm:text-[11px]\n                  ",
                                                 children: "Depois"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/home/ResultsSection.tsx",
-                                                lineNumber: 398,
+                                                lineNumber: 379,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/home/ResultsSection.tsx",
-                                        lineNumber: 216,
+                                        lineNumber: 209,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/home/ResultsSection.tsx",
-                                    lineNumber: 198,
+                                    lineNumber: 193,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "\n                mt-4\n                flex\n                items-center\n                justify-center\n                gap-2\n\n                text-[11px]\n                font-semibold\n                text-[#7a8f9c]\n\n                sm:text-xs\n              ",
+                                    className: "\n                mt-4\n                flex\n                items-center\n                justify-center\n                gap-2\n                text-[11px]\n                font-semibold\n                text-[#7a8f9c]\n                sm:text-xs\n              ",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevrons$2d$left$2d$right$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronsLeftRight$3e$__["ChevronsLeftRight"], {
                                             size: 15
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/home/ResultsSection.tsx",
-                                            lineNumber: 449,
+                                            lineNumber: 424,
                                             columnNumber: 15
                                         }, this),
                                         "Arraste para comparar"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/home/ResultsSection.tsx",
-                                    lineNumber: 434,
+                                    lineNumber: 411,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/home/ResultsSection.tsx",
-                            lineNumber: 197,
+                            lineNumber: 192,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/home/ResultsSection.tsx",
-                    lineNumber: 52,
+                    lineNumber: 56,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/home/ResultsSection.tsx",
-                lineNumber: 51,
+                lineNumber: 55,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/home/ResultsSection.tsx",
-        lineNumber: 27,
+        lineNumber: 28,
         columnNumber: 5
     }, this);
 }
