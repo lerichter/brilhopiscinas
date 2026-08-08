@@ -9,6 +9,8 @@ import ServicesSection from "@/components/home/ServicesSection";
 import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
 
+import BackToTop from "@/components/ui/BackToTop";
+
 export default function Home() {
   return (
     <main>
@@ -29,6 +31,8 @@ export default function Home() {
       <ContactSection />
 
       <Footer />
+
+      <BackToTop />
     </main>
   );
 }
