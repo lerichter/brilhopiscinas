@@ -15,7 +15,7 @@ import ButtonLink from "@/components/ui/ButtonLink";
 const highlights = [
   {
     icon: History,
-    title: "Mais de 35 anos de experiência",
+    title: "Mais de 40 anos de experiência",
     description:
       "Uma trajetória construída com conhecimento técnico, atendimento próximo e cuidado constante com cada piscina.",
   },
