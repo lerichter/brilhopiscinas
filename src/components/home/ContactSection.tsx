@@ -8,6 +8,7 @@ import {
   Phone,
   Send,
 } from "lucide-react";
+import { useRouter } from "next/navigation";
 
 import type { FormEvent } from "react";
 
@@ -22,6 +23,8 @@ const serviceOptions = [
 ];
 
 export default function ContactSection() {
+  const router = useRouter();
+
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
@@ -61,6 +64,7 @@ export default function ContactSection() {
     )}`;
 
     window.open(url, "_blank", "noopener,noreferrer");
+    router.push("/obrigado");
   }
 
   return (

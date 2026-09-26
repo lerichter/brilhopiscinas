@@ -16,6 +16,16 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Environment variables
+
+Copy `.env.example` to `.env.local` and configure:
+
+- `NEXT_PUBLIC_WHATSAPP_NUMBER`: WhatsApp number with country and area codes.
+- `NEXT_PUBLIC_GA_MEASUREMENT_ID`: Google Analytics 4 measurement ID.
+
+The quote form opens WhatsApp and then redirects the website to `/obrigado`.
+Use `https://www.brilhopiscinas.com.br/obrigado` as the conversion page in Google Ads.
+
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
