@@ -15,7 +15,7 @@ const services = [
     title: "Manutenção de piscinas",
     description:
       "Limpeza, aspiração, tratamento químico e acompanhamento periódico para manter sua piscina sempre cristalina.",
-    href: "#contato",
+    href: "/contato",
     featured: true,
   },
   {
@@ -24,7 +24,7 @@ const services = [
     title: "Assistência técnica",
     description:
       "Diagnóstico, manutenção e reparos em bombas, filtros, aquecimento e outros equipamentos da sua piscina.",
-    href: "#contato",
+    href: "/contato",
     featured: false,
   },
   {
@@ -33,7 +33,7 @@ const services = [
     title: "Produtos e acessórios",
     description:
       "Produtos selecionados para tratamento, limpeza, conservação e funcionamento completo da sua piscina.",
-    href: "#produtos",
+    href: "/contato",
     featured: false,
   },
 ];

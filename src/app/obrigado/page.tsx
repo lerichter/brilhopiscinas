@@ -155,7 +155,7 @@ export default function ThankYouPage() {
         </div>
 
         <Link
-          href="/#contato"
+          href="/contato"
           className="
             mt-8
             inline-flex min-h-12 items-center justify-center gap-2

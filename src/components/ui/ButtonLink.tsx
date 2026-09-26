@@ -26,6 +26,7 @@ const defaultMessage =
 
 export default function ButtonLink({
   children,
+  href,
   variant = "primary",
   className = "",
   message = defaultMessage,
@@ -35,7 +36,7 @@ export default function ButtonLink({
 
   const whatsappUrl = whatsappNumber
     ? `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`
-    : "#contato";
+    : href ?? "/contato";
 
   return (
     <a

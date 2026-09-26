@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { Menu, MessageCircle, X } from "lucide-react";
 import { useEffect, useState } from "react";
 
@@ -10,23 +11,23 @@ import ButtonLink from "@/components/ui/ButtonLink";
 const navigation = [
   {
     label: "Início",
-    href: "#inicio",
+    href: "/",
   },
   {
     label: "Serviços",
-    href: "#servicos",
+    href: "/servicos",
   },
   {
     label: "Resultados",
-    href: "#resultados",
+    href: "/resultados",
   },
   {
     label: "Sobre nós",
-    href: "#sobre",
+    href: "/sobre",
   },
   {
     label: "Contato",
-    href: "#contato",
+    href: "/contato",
   },
 ];
 
@@ -106,8 +107,8 @@ export default function Header() {
             `}
           >
             {/* LOGO */}
-            <a
-              href="#inicio"
+            <Link
+              href="/"
               aria-label="Brilho Piscinas - Página inicial"
               className={`
                 relative block shrink-0
@@ -128,7 +129,7 @@ export default function Header() {
                 priority
                 className="h-auto w-full"
               />
-            </a>
+            </Link>
 
             {/* NAVEGAÇÃO DESKTOP */}
             <nav
@@ -141,9 +142,10 @@ export default function Header() {
               "
             >
               {navigation.map((item) => (
-                <a
+                <Link
                   key={item.href}
                   href={item.href}
+                  scroll={false}
                   className="
                     rounded-lg
                     px-4 py-2
@@ -159,14 +161,14 @@ export default function Header() {
                   "
                 >
                   {item.label}
-                </a>
+                </Link>
               ))}
             </nav>
 
             {/* CTA DESKTOP */}
             <div className="hidden lg:block">
               <ButtonLink
-                href="#contato"
+                href="/contato"
                 message="Olá, Brilho Piscinas! Gostaria de solicitar um orçamento."
               >
                 <MessageCircle size={17} />
@@ -294,9 +296,10 @@ export default function Header() {
           className="mt-10 flex flex-col"
         >
           {navigation.map((item) => (
-            <a
+            <Link
               key={item.href}
               href={item.href}
+              scroll={false}
               onClick={() => setMobileMenuOpen(false)}
               className="
                 border-b
@@ -314,14 +317,14 @@ export default function Header() {
               "
             >
               {item.label}
-            </a>
+            </Link>
           ))}
         </nav>
 
         {/* CTA */}
         <div className="mt-auto pt-8">
           <ButtonLink
-            href="#contato"
+            href="/contato"
             className="w-full"
           >
             <MessageCircle size={18} />

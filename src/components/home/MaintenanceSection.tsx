@@ -364,7 +364,7 @@ export default function MaintenanceSection() {
           >
 
               <ButtonLink
-                href="#servicos"
+                href="/servicos"
                 variant="primary"
                 message="Olá, Brilho Piscinas! Gostaria de conhecer melhor os serviços oferecidos."
               >

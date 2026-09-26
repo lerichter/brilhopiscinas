@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import {
   ChevronRight,
@@ -13,27 +14,27 @@ import Container from "@/components/layout/Container";
 const navigation = [
   {
     label: "Início",
-    href: "#inicio",
+    href: "/",
   },
   {
     label: "Serviços",
-    href: "#servicos",
+    href: "/servicos",
   },
   {
     label: "Resultados",
-    href: "#resultados",
+    href: "/resultados",
   },
   {
     label: "Manutenção",
-    href: "#manutencao",
+    href: "/manutencao",
   },
   {
     label: "Sobre nós",
-    href: "#sobre",
+    href: "/sobre",
   },
   {
     label: "Contato",
-    href: "#contato",
+    href: "/contato",
   },
 ];
 
@@ -75,8 +76,8 @@ export default function Footer() {
         >
           {/* MARCA */}
           <div>
-            <a
-              href="#inicio"
+            <Link
+              href="/"
               aria-label="Brilho Piscinas - Voltar ao início"
               className="
                 inline-flex
@@ -110,7 +111,7 @@ export default function Footer() {
                   lg:w-[260px]
                 "
               />
-            </a>
+            </Link>
 
             <h2
               className="
@@ -192,9 +193,10 @@ export default function Footer() {
               className="mt-6 flex flex-col gap-1"
             >
               {navigation.map((item) => (
-                <a
+                <Link
                   key={item.href}
                   href={item.href}
+                  scroll={false}
                   className="
                     group
 
@@ -223,7 +225,7 @@ export default function Footer() {
                   />
 
                   {item.label}
-                </a>
+                </Link>
               ))}
             </nav>
           </div>
@@ -243,8 +245,9 @@ export default function Footer() {
             </p>
 
             <div className="mt-6 space-y-3">
-              <a
-                href="#contato"
+              <Link
+                href="/contato"
+                scroll={false}
                 className="
                   group
 
@@ -286,7 +289,7 @@ export default function Footer() {
                     Fale com a Brilho
                   </p>
                 </div>
-              </a>
+              </Link>
 
               <div
                 className="

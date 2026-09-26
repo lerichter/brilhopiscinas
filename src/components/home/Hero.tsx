@@ -323,7 +323,7 @@ export default function Hero() {
               "
               >
               <ButtonLink
-                href="#contato"
+                href="/contato"
                 message="Olá, Brilho Piscinas! Gostaria de solicitar um orçamento."
               >
                 <MessageCircle size={17} />
@@ -331,7 +331,7 @@ export default function Hero() {
               </ButtonLink>
 
               <ButtonLink
-                href="#servicos"
+                href="/servicos"
                 variant="secondary"
                 className="sm:min-w-[180px]"
               >
